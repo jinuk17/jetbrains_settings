@@ -1,0 +1,146 @@
+<application>
+  <component name="LocalDatabaseDriverManager" version="141+">
+    <driver id="h2.unified" name="H2" dialect="H2">
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <library>
+        <url>file://$USER_HOME$/Development/Database/h2/bin/h2-1.4.191.jar</url>
+      </library>
+    </driver>
+    <driver id="9e53af07-1972-4999-b903-91302c67719b" name="PostgreSQL(edb)" dialect="PostgreSQL" driver-class="com.edb.Driver" icon="AllIcons.Providers.Postgresql">
+      <artifact name="PostgreSQL" />
+      <url-template name="default" template="jdbc:edb:[//[{host::localhost}[:{port::5432}]]/]{database::postgres}[\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
+      <url-template name="default" template="jdbc:edb://\[{host:ipv6:\:\:1}\][:{port::5432}]/{database::postgres}[\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <library>
+        <url>file://$USER_HOME$/Development/JDBC/edb-jdbc-9.4-jdk17.jar</url>
+      </library>
+    </driver>
+    <driver id="oracle" name="Oracle" dialect="Oracle">
+      <option name="auto-sync" value="false" />
+      <option name="auto-commit" value="false" />
+      <library>
+        <url>file://$USER_HOME$/Development/JDBC/ojdbc14.jar</url>
+      </library>
+    </driver>
+    <driver id="3a1fd79e-986a-41ce-86ac-e8b405647819" name="PostgreSQL_EDB" dialect="PostgreSQL" driver-class="com.edb.Driver" icon="AllIcons.Providers.Postgresql">
+      <artifact name="PostgreSQL" />
+      <url-template name="default" template="jdbc:edb:[//[{host::localhost}[:{port::5432}]]/]{database::postgres}[\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
+      <url-template name="default" template="jdbc:edb://\[{host:ipv6:\:\:1}\][:{port::5432}]/{database::postgres}[\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <library>
+        <url>file://$USER_HOME$/Development/JDBC/edb-jdbc-9.4-jdk17.jar</url>
+      </library>
+    </driver>
+    <driver id="d2cc0901-2746-4340-8ce8-12fba3237541" name="PostgreSQL(edb) - ims@10.28.163.105 ims driver" dialect="PostgreSQL" driver-class="com.edb.Driver" icon="AllIcons.Providers.Postgresql">
+      <artifact name="PostgreSQL" />
+      <url-template name="default" template="jdbc:edb:[//[{host::localhost}[:{port::5432}]]/]{database::postgres}[\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
+      <url-template name="default" template="jdbc:edb://\[{host:ipv6:\:\:1}\][:{port::5432}]/{database::postgres}[\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <library>
+        <url>file://$USER_HOME$/Development/JDBC/edb-jdbc-9.4-jdk17.jar</url>
+      </library>
+    </driver>
+    <driver id="derby.embedded" name="Derby (Embedded)" dialect="Derby">
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="sybase.jtds" name="Sybase (jTds)" dialect="Sybase">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="sqlserver.jtds" name="SQL Server (jTds)" dialect="TSQL">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="hsqldb.local" name="HSQLDB (Local)" dialect="HSQLDB">
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="ed0d5e92-1da7-48a2-a49d-7c9a7baed80d" name="PostgreSQL - ims@10.28.163.105 driver" dialect="PostgreSQL" driver-class="org.postgresql.Driver" icon="AllIcons.Providers.Postgresql">
+      <artifact name="PostgreSQL" />
+      <url-template name="default" template="jdbc:postgresql:[//[{host::localhost}[:{port::5432}]]/]{database::postgres}[\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
+      <url-template name="default" template="jdbc:postgresql://\[{host:ipv6:\:\:1}\][:{port::5432}]/{database::postgres}[\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <library>
+        <url>file://$USER_HOME$/Development/JDBC/edb-jdbc-9.4-jdk17.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Development/JDBC/postgresql-9.4-1201.jdbc4.jar</url>
+      </library>
+    </driver>
+    <driver id="derby.remote" name="Derby (Remote)" dialect="Derby">
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="sqlite.xerial" name="Sqlite (Xerial)" dialect="SQLite">
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="sybase.ase" name="Sybase (Native)" dialect="Sybase">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="postgresql" name="PostgreSQL" dialect="PostgreSQL">
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-driver-license.txt</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-9.4-1201.jdbc4.jar</url>
+      </library>
+    </driver>
+    <driver id="db2" name="DB2 (LUW)" dialect="DB2">
+      <option name="auto-sync" value="false" />
+      <property name="retrieveMessagesFromServerOnGetMessage" value="true" />
+    </driver>
+    <driver id="sqlserver.ms" name="SQL Server (Microsoft)" dialect="TSQL">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="db2.jtopen" name="DB2 (JTOpen)" dialect="DB2">
+      <option name="auto-sync" value="false" />
+      <property name="prompt" value="false" />
+    </driver>
+    <driver id="mysql" name="MySQL" dialect="MySQL">
+      <option name="auto-sync" value="true" />
+      <property name="autoReconnect" value="true" />
+      <property name="zeroDateTimeBehavior" value="convertToNull" />
+      <property name="tinyInt1isBit" value="false" />
+      <property name="characterEncoding" value="utf8" />
+      <property name="characterSetResults" value="utf8" />
+      <property name="yearIsDateType" value="false" />
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-license.txt</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-java-5.1.35-bin.jar</url>
+      </library>
+    </driver>
+    <driver id="98693e4e-3483-4847-93a7-1ab82e20ab54" name="MySQL - mysql@jayden-uk-01.s2.krane.9rum.cc driver" dialect="MySQL" driver-class="com.mysql.jdbc.Driver" icon="AllIcons.Providers.Mysql">
+      <artifact name="MySQL Connector/J" />
+      <url-template name="default" template="jdbc:mysql://{host::localhost}?[:{port::3306}][/{database}?][\?&lt;&amp;,user={user},password={password},{:identifier}={:identifier}&gt;]" />
+      <url-template name="default" template="jdbc:mysql://address=\(protocol=tcp\)\(&lt;\)\(,host={host:host_ipv6:localhost},port={port::3306},user={user},password={password},{:identifier}={:identifier}&gt;\)[/{database}][\?&lt;&amp;,{:identifier}={:identifier}&gt;]" />
+      <option name="auto-sync" value="true" />
+      <property name="autoReconnect" value="true" />
+      <property name="zeroDateTimeBehavior" value="convertToNull" />
+      <property name="tinyInt1isBit" value="false" />
+      <property name="characterEncoding" value="utf8" />
+      <property name="characterSetResults" value="utf8" />
+      <property name="yearIsDateType" value="false" />
+      <library>
+        <url>file://$USER_HOME$/Development/JDBC/mysql-connector-java-5.1.36/mysql-connector-java-5.1.36-bin.jar</url>
+      </library>
+    </driver>
+    <driver id="b1b07237-4b75-4652-ae01-53c834fe07f0" name="PostgreSQL(edb) - ims@10.28.163.105 ims driver" dialect="PostgreSQL" driver-class="com.edb.Driver" icon="AllIcons.Providers.Postgresql">
+      <artifact name="PostgreSQL" />
+      <url-template name="default" template="jdbc:edb:[//[{host::localhost}[:{port::5432}]]/]{database::postgres}[\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
+      <url-template name="default" template="jdbc:edb://\[{host:ipv6:\:\:1}\][:{port::5432}]/{database::postgres}[\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <library>
+        <url>file://$USER_HOME$/Development/JDBC/postgresql-9.4-1201.jdbc4.jar</url>
+      </library>
+    </driver>
+    <driver id="hsqldb.remote" name="HSQLDB (Remote)" dialect="HSQLDB">
+      <option name="auto-sync" value="true" />
+    </driver>
+  </component>
+</application>
