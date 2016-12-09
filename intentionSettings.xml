@@ -1,5 +1,0 @@
-<application>
-  <component name="IntentionManagerSettings">
-    <ignoreAction name="I18N/Replace Concatenation with Formatted Output" />
-  </component>
-</application>
